@@ -2,3 +2,4 @@ dist/
 node_modules/
 src/.umi
 src/.umi-production
+yarn.lock

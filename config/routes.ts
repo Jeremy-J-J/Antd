@@ -1,5 +1,9 @@
 ﻿export default [
   {
+    path: '/',
+    redirect: '/welcome',
+  },
+  {
     path: '/user',
     layout: false,
     routes: [
@@ -43,13 +47,6 @@
     path: '/list',
     component: './TableList',
   },
-  {
-    path: '/',
-    redirect: '/welcome',
-  },
-  {
-    component: './404',
-  },
   // new
   { 
     path: '/new', 
@@ -62,5 +59,8 @@
             component: './New/NewAnalysis', 
         },
     ], 
+  },
+  {
+    component: './404',
   },
 ];
