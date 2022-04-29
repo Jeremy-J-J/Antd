@@ -59,6 +59,7 @@
             component: './New/NewAnalysis', 
         },
     ], 
+    // hideInMenu: true,
   },
   {
     component: './404',

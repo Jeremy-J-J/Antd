@@ -44,8 +44,8 @@ export default {
     res.send({
       success: true,
       data: {
-        name: 'Serati Ma',
-        avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
+        name: 'jeremy j',
+        avatar: 'https://img2.baidu.com/it/u=832598850,1446126028&fm=253&fmt=auto&app=138&f=PNG?w=480&h=270',   // 悟空
         userid: '00000001',
         email: 'antdesign@alipay.com',
         signature: '海纳百川，有容乃大',
@@ -54,27 +54,27 @@ export default {
         tags: [
           {
             key: '0',
-            label: '很有想法的',
+            label: '好',
           },
           {
             key: '1',
-            label: '专注设计',
+            label: '很好',
           },
           {
             key: '2',
-            label: '辣~',
+            label: '非常好',
           },
           {
             key: '3',
-            label: '大长腿',
+            label: '你真棒',
           },
           {
             key: '4',
-            label: '川妹子',
+            label: '极好的',
           },
           {
             key: '5',
-            label: '海纳百川',
+            label: '可以',
           },
         ],
         notifyCount: 12,
